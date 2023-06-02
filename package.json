@@ -4,9 +4,12 @@
   "license": "MIT",
   "author": "gethugothemes",
   "scripts": {
-    "dev": "cd exampleSite; hugo server || hugo server --themesDir ../..",
-    "test": "cd exampleSite; hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify|| hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
-    "build": "cd exampleSite; hugo || hugo --themesDir ../.. --gc --minify --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
-    "update": "hugo mod clean && hugo mod get -u ./... && hugo mod tidy"
-  }
+    "dev": "cd ridec && hugo server --themesDir ../..",
+    "test": "cd ridec && hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
+    "test:hugo": "hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
+    "build": "cd ridec && hugo",
+    "build:hugo": "hugo --themesDir ../.. --gc --minify --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
+    "update": "hugo mod clean",
+    "update:hugo": "hugo mod get -u ./... && hugo mod tidy"
+  }  
 }
