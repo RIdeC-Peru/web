@@ -1,25 +1,33 @@
 ---
 date: "2021-07-11"
-title: "Five eCommerce lessons to learn from Bloom & Wild"
-image: "images/blog/04.jpg"
+title: "Tráfico Ilícito de animales silvestres"
+image: "images/blog/04.png"
 author_info: 
-  name: "Abdullah Al Shifat"
+  name: "Luz Bello Noa"
   image: "images/author/abdullah.jpg"
 draft: false
 ---
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
+El tráfico ilegal de vida silvestre se ha incrementado con los años y se sitúa entre los negocios ilícitos más atractivos, por la falta de sanciones reales y las ganancias que se obtienen, aproximadamente US$ 7 800 y 10 000 millones por año.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent
+Diversos factores como la pobreza, corrupción, falta de alternativas de trabajo, falencias en la educación ambiental y la influencia cultural mantienen vigente este cruel negocio. Los animales son extraídos para ser comercializados como mascotas o para consumo, por supuestas propiedades para la medicina natural; además de otros fines sin fundamento como afrodisíacos o la “brujería”.
 
-Pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet Faucibus consectetur tempus adipiscing vitae. Nec blandit tincidunt nibh nisi, quam volutpat. In lacus laoreet diam risus. Mauris, risus faucibus sagittis sagittis tincidunt id justo. Diam massa pretium consequat mauris viverra. Sagittis eu libero
+"Los efectos negativos que se generan son incalculables y en la gran mayoría de los casos irreparables".
 
->Facing a challenge in life is kind of a turn-on for an easy rider. When life gives you lemons, use them in your designs
->
-> <cite>!Alexender Smith</cite>
+- Tortura y muerte de las especies extraídas.
+- Desequilibrio en el ecosistema de origen.
+- Portadores de microorganismos potencialmente peligrosos para otros animales.
 
-Consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent volutpat tortor. Ipsum eget sed tempus luctus nisl. Ut etiam molestie mattis at faucibus mi at pellentesque. Pellentesque morbi nunc, curabitur arcu euismod suscipit. Duis mi sapien, donec non dictum
+No obstante, algunos animales capturados todavía tienen posibilidades de ser reinsertados en su hábitat original luego de un proceso de monitoreo. Este arduo trabajo involucra a muchos profesionales, como biólogos, zootecnistas, médicos veterinarios, quienes deben tener amplios conocimientos sobre la historia natural del animal y sus particularidades ecológicas.
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis cursus id.
+*¿Cómo podemos ayudar a reducir el tráfico ilegal de la fauna silvestre?*
 
-Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet dignissim. Faucibus non tristique eu.
+- Concientización del problema (hacia las autoridades y la población en general).
+- Denunciar actos de compra y venta.
+- Informar a SERFOR sobre casos de animales en cautiverio.
+
+Referencias:
+
+- https://bit.ly/3qQvAo1
+- https://bit.ly/3qTl2EB
+- https://bit.ly/3nzEJiQ

@@ -1,11 +1,11 @@
 # main menu
 [[main]]
-name = "Home"
+name = "Inicio"
 url = ""
 weight = 1
 
 [[main]]
-name = "About"
+name = "Nosotros"
 url = "about/"
 weight = 2
 
@@ -16,30 +16,30 @@ weight = 3
 
 [[main]]
 weight = 4
-name = "Pages"
+name = "Páginas"
 hasChildren = true
 
   [[main]]
-  parent = "Pages"
-  name = "Blog Details"
+  parent = "Páginas"
+  name = "Última públicación"
   url = "blog/post-1/"
   weight = 1
 
   [[main]]
-  parent = "Pages"
-  name = "Terms & Conditions"
+  parent = "Páginas"
+  name = "Términos & Condiciones"
   url = "terms-and-conditions/"
   weight = 7
   
 [[main]]
-name = "Contact"
+name = "Contacto"
 url = "contact/"
 weight = 5
 
 
 # footer menu
 [[footer]]
-name = "About"
+name = "Acerca"
 url = "about/"
 weight = 1
 
@@ -49,11 +49,6 @@ url = "blog/"
 weight = 2
 
 [[footer]]
-name = "Blog Details"
-url = "blog/post-1/"
-weight = 3
-
-[[footer]]
-name = "Terms & Conditions"
+name = "Términos & Condiciones"
 url = "terms-and-conditions/"
 weight = 4

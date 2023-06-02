@@ -1,8 +1,8 @@
 {
-  "name": "andromeda-light",
+  "name": "ridec",
   "version": "1.5.0",
   "license": "MIT",
-  "author": "gethugothemes",
+  "author": "totallynotdavid",
   "scripts": {
     "dev": "cd ridec && hugo server --themesDir ../..",
     "test": "cd ridec && hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",

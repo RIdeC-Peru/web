@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "Nuestras publicaciones"
 description: "meta description"
 draft: false
 ---

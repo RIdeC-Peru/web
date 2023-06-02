@@ -1,14 +1,14 @@
 ---
-title: "About"
+title: "Sobre nosotros"
 layout: "about"
 draft: false
 
 # who_we_are
 who_we_are:
   enable: true
-  subtitle: "Who We Are"
-  title: "Hello, We're Andromeda Here for your Help"
-  description: "Your online Health & Fitness companion that offers free assistance on its Facebook Group and provides quality paid guided personal training packages by and through website. We are the first ever, online manifesto in Bangladesh to make place you will select when you think of getting fit"
+  subtitle: "¿Quiénes somos?"
+  title: "Somos RIdeC-Perú"
+  description: "Una organización de estudiantes y profesionales interesados en fomentar las ciencias básicas y afines con la misión de impulsar la integración de estudiantes con investigadores de diversos niveles; y la visión de ser el mediador de los grupos de investigación, institutos de investigación y grupos de divulgación en ciencias en el Perú, para generar nexos entre ellas y los estudiantes peruanos."
 
   image: "images/about/01.jpg"
 
@@ -60,19 +60,34 @@ brands_carousel:
 # our team
 our_team:
   enable: true
-  subtitle: "Our members"
-  title: "The People Behind"
-  description: "We were freelance designers and developers, constantly finding <br> ourselves deep in vague feedback. This made every client and team"
+  subtitle: "Nuestro equipo"
+  title: "Las personas detrás"
+  description: "Somos estudiantes y profesionales apasionados por las ciencias básicas y afines, constantemente buscando fomentar e impulsar la integración entre estudiantes e investigadores de diversos niveles."
   team:
-  - name: "Valentin Staykov"
-    image: "images/about/team/01.jpg"
-    designation: "Operations"
-  - name: "Bukiakta Bansalo"
+  - name: "Camila Suarez"
+    image: "images/about/team/01.jpeg"
+    designation: "Presidenta"
+  - name: "Omar Suarez"
     image: "images/about/team/02.jpg"
-    designation: "Product"
-  - name: "Ortrin Okaster"
+    designation: "Vicepresidente"
+  - name: "Anderson Romero"
     image: "images/about/team/03.jpg"
-    designation: "Engineering"
+    designation: "Relaciones Institucionales"
+  - name: "Alex Castillo"
+    image: "images/about/team/04.jpeg"
+    designation: "Relaciones Institucionales"
+  - name: "Jose Mena"
+    image: "images/about/team/05.jpeg"
+    designation: "Relaciones Institucionales"
+  - name: "Brenda Gordillo"
+    image: "images/about/team/06.jpeg"
+    designation: "Relaciones Institucionales"
+  - name: "Jorge Medina"
+    image: "images/about/team/07.jpeg"
+    designation: "Relaciones Institucionales"
+  - name: "José Evangelio"
+    image: "images/about/team/08.jpeg"
+    designation: "Relaciones Institucionales"
 
 
 # our office

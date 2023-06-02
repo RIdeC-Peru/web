@@ -1,27 +1,36 @@
 ---
-date: "2021-07-14"
-title: "The Real Product From the Buyers improvements in Overflow basis."
-image: "images/blog/01.jpg"
+date: "2021-11-14"
+title: "Teorema de Incompletitud de Gödel: ¿Las matemáticas tienen contradicciones?"
+image: "images/blog/01.png"
 author_info: 
   name: "Abdullah Al Shifat"
   image: "images/author/abdullah.jpg"
 draft: false
 ---
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
+¿Te imaginas despertar y que todo lo que hayas experimentado sea parte de tu imaginación? ¿Qué es lo que hace válido la realidad?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent
+En ciencia buscamos explicar la realidad, usando herramientas matemáticas. Las matemáticas de hoy son, en gran parte, una construcción de leyes lógicas. Llegar al punto del conocimiento de nuestra realidad ha tenido altas y bajas a través de la historia.
 
-Pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet Faucibus consectetur tempus adipiscing vitae. Nec blandit tincidunt nibh nisi, quam volutpat. In lacus laoreet diam risus. Mauris, risus faucibus sagittis sagittis tincidunt id justo. Diam massa pretium consequat mauris viverra. Sagittis eu libero
+Hasta antes de 1931, creíamos que para demostrar que una afirmación numérica era verdadera, debíamos seguir una construcción de axiomas que concluyeran en esta. En este contexto, Kurt Gödel hizo temblar todo el mundo matemático, hasta al mismísimo Hilbert; lo hizo partiendo del siguiente juego lógico.
 
->Facing a challenge in life is kind of a turn-on for an easy rider. When life gives you lemons, use them in your designs
->
-> <cite>!Alexender Smith</cite>
+Consideremos el enunciado: *E* = “Esta declaración es falsa”.
 
-{{< image src="images/blog/01.jpg"  >}}
+- Si *E* es falsa, entonces "esta declaración" es verdadera, lo que equivale a que E sea verdadera.
+- Si *E* es verdad, entonces es válido que "Esta declaración es falsa" lo que equivale a que E sea falsa.
 
-Consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent volutpat tortor. Ipsum eget sed tempus luctus nisl. Ut etiam molestie mattis at faucibus mi at pellentesque. Pellentesque morbi nunc, curabitur arcu euismod suscipit. Duis mi sapien, donec non dictum
+Ya que nos referimos al mismo enunciado directamente, como en matemática solo podíamos considerar que un enunciado sea verdadero o falso, el ejercicio presentaba una ambigüedad (específicamente una paradoja irresoluble).
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis cursus id.
+Este juego lógico hizo a Kurt G. desarrollar el Teorema de incompletitud de Gödel; donde las declaraciones matemáticas seguían su curso de ser verdaderas o falsas, sólo que las verdaderas podrían ser demostrables o indemostrables dentro de un conjunto dado de axiomas. Además, afirma que en todos los sistemas axiomáticos existen declaraciones verdaderas indemostrables.
 
-Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet dignissim. Faucibus non tristique eu.
+La presentación de este teorema hizo que muchos matemáticos pensaran lo siguiente: "podríamos estar trabajando en la prueba de un teorema incompatible en nuestro conjunto de axiomas considerados, probablemente mi trabajo nunca sea terminado".
+
+El trabajo de Kurt Gödel, a pesar de que demostró que existen resultados verdaderos que no podrán ser demostrados también, inspiró al desarrollo de las primeras computadoras.
+
+Actualmente, los matemáticos, buscan identificar enunciados de carácter demostrable e indemostrable; siendo sus resultados herramientas de las ciencias para la búsqueda de la verdad.
+
+{{< image src="images/blog/01.png"  >}}
+
+Referencia:
+
+_Baaz, M., Papadimitriou, C., Putnam, H., Scott, D., & Harper, Jr, C. (Eds.). (2011). Kurt Gödel and the Foundations of Mathematics: Horizons of Truth. Cambridge: Cambridge University Press. doi:10.1017/CBO9780511974236_

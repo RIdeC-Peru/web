@@ -1,8 +1,8 @@
 ---
 # banner
 banner:
-  title: "Andromeda is the most intuitive way to prototype Designs"
-  button: "Get Premium Version"
+  title: "Por más fisica, química, biología y matemáticas"
+  button: "Lee nuestras publicaciones"
   button_link: "https://gethugothemes.com/products/andromeda/"
   image: "images/banner-app.png"
 
@@ -54,10 +54,10 @@ features:
 # intro_video
 intro_video:   
   enable: true
-  subtitle: "Short Intro Video"
-  title: "Built exclusively for you"
+  subtitle: "Pequeña Introducción"
+  title: "Hechos específicamente para ti"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> Werat viverra id et aliquet. vulputate egestas sollicitudin."
-  video_url: "https://www.youtube.com/embed/dyZcRRWiuuw"
+  video_url: "https://www.youtube.com/embed/Mikq1FUFPZg"
   video_thumbnail: "images/video-popup.jpg"
 
 

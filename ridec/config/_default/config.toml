@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/andromeda-light/site/"
-title = "Andromeda-light - Software and SAAS Landing Hugo Theme"
-theme = "andromeda-light"
+baseURL = "https://ridec.netlify.app/"
+title = "RIdeC-Perú"
+theme = "web"
 # post pagination
 paginate = "6"
 # post excerpt

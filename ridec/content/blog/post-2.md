@@ -1,6 +1,6 @@
 ---
 date: "2021-07-13"
-title: "Why you should launch your product in phases not after done"
+title: "Unidos por la Ciencia: \"Nobel Prize Dialogue Latin American  and  the Caribbean\""
 image: "images/blog/02.jpg"
 author_info: 
   name: "Derick Barker"
@@ -8,18 +8,6 @@ author_info:
 draft: false
 ---
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
+Este año se realizará una importante e interesante reunión entre premios nobels y estudiantes de las diferentes universidades de América Latina. Entre los cientificos invitados estarán presentes: Elizabeth Blackburn (premio de medicina 2009), Emmanuelle Charpentier (premio de química 2020), Bernard Feringa (premio de química 2016), May-Britt Moser (premio de medicina 2014) y Saul Perlmutter (premio de física 2011), además entre los estudiantes peruanos que nos representarán encontramos a Lucia Coll, Alexandra Diaz, Eduardo Sanchez y Saneli Carbajal (RIdeC-Perú). Agradecemos a la Academia Nacional de Ciencias por dar a conocer este evento en nuestro país.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent
-
-Pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet Faucibus consectetur tempus adipiscing vitae. Nec blandit tincidunt nibh nisi, quam volutpat. In lacus laoreet diam risus. Mauris, risus faucibus sagittis sagittis tincidunt id justo. Diam massa pretium consequat mauris viverra. Sagittis eu libero
-
->Facing a challenge in life is kind of a turn-on for an easy rider. When life gives you lemons, use them in your designs
->
-> <cite>!Alexender Smith</cite>
-
-Consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent volutpat tortor. Ipsum eget sed tempus luctus nisl. Ut etiam molestie mattis at faucibus mi at pellentesque. Pellentesque morbi nunc, curabitur arcu euismod suscipit. Duis mi sapien, donec non dictum
-
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis cursus id.
-
-Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet dignissim. Faucibus non tristique eu.
+Encuentra más información Aquí: [Link](https://www.facebook.com/ANCdelPeru/posts/2985296631724541).
