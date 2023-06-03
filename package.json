@@ -4,12 +4,23 @@
   "license": "MIT",
   "author": "totallynotdavid",
   "scripts": {
+    "clean": "shx rm -rf public resources",
+    "clean:install": "shx rm -rf package-lock.json node_modules",
     "dev": "cd ridec && hugo server --themesDir ../..",
     "test": "cd ridec && hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
     "test:hugo": "hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
     "build": "cd ridec && hugo",
-    "build:hugo": "hugo --themesDir ../.. --gc --minify --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
+    "build:hugo": "cd ridec && exec-bin ../node_modules/.bin/hugo/hugo --themesDir ../.. --gc --minify --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
     "update": "hugo mod clean",
-    "update:hugo": "hugo mod get -u ./... && hugo mod tidy"
-  }  
+    "update:hugo": "hugo mod get -u ./... && hugo mod tidy",
+    "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo"
+  },
+  "devDependencies": {
+    "shx": "^0.3",
+    "exec-bin": "^1.0.0",
+    "hugo-installer": "^3.1"
+  },
+  "otherDependencies": {
+    "hugo": "0.112.7"
+  }
 }

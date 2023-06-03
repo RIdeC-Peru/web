@@ -1,11 +1,25 @@
 [build]
-  publish = "exampleSite/public"
-  command = "cd exampleSite && hugo --minify --gc --themesDir ../.."
-  
+  publish = "public"
+  functions = "functions"
+
 [build.environment]
-  HUGO_VERSION = "0.108.0"
-  HUGO_THEME = "repo"
-  HUGO_BASEURL = "/"
+  NODE_VERSION = "18.16.0"
+  NPM_VERSION = "9.5.1"
+
+[context.production]
+  command = "npm run build:hugo"
+
+[context.deploy-preview]
+  command = "npm run build -- -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy]
+  command = "npm run build -- -b $DEPLOY_PRIME_URL"
+
+[context.next]
+  command = "npm run build"
+
+[context.next.environment]
+  HUGO_ENV = "next"
 
 [[headers]]
   for = "/*" # This defines which paths this specific [[headers]] block will cover.
@@ -15,3 +29,10 @@
   X-XSS-Protection = "1; mode=block"
   Referrer-Policy = "same-origin"
   Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+
+[[plugins]]
+  package = "netlify-plugin-cloudinary"
+
+  [plugins.inputs]
+  cloudName = "dubu"
+  loadingStrategy = "lazy"
