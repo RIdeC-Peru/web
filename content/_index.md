@@ -3,7 +3,7 @@
 banner:
   title: "Por más fisica, química, biología y matemáticas"
   button: "Lee nuestras publicaciones"
-  button_link: "https://gethugothemes.com/products/andromeda/"
+  button_link: "/blog"
   image: "images/banner-app.png"
 
 
