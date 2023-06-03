@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://ridec.netlify.app/"
 title = "RIdeC-Perú"
-theme = "web"
+theme = "repo"
 # post pagination
 paginate = "6"
 # post excerpt
