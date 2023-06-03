@@ -6,13 +6,13 @@
   "scripts": {
     "clean": "shx rm -rf public resources",
     "clean:install": "shx rm -rf package-lock.json node_modules",
-    "dev": "cd ridec && exec-bin ../node_modules/.bin/hugo/hugo server --themesDir ../..",
-    "test": "cd ridec && exec-bin ../node_modules/.bin/hugo/hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
-    "test:hugo": "exec-bin ../node_modules/.bin/hugo/hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
-    "build": "cd ridec && hugo",
-    "build:hugo": "cd ridec && exec-bin ../node_modules/.bin/hugo/hugo --themesDir ../ --gc --minify --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
-    "update": "exec-bin ../node_modules/.bin/hugo/hugo mod clean",
-    "update:hugo": "exec-bin ../node_modules/.bin/hugo/hugo mod get -u ./... && hugo mod tidy",
+    "dev": "exec-bin ./node_modules/.bin/hugo/hugo server",
+    "test": "exec-bin ./node_modules/.bin/hugo/hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
+    "test:hugo": "exec-bin ./node_modules/.bin/hugo/hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
+    "build": "hugo",
+    "build:hugo": "exec-bin ./node_modules/.bin/hugo/hugo --gc --minify --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
+    "update": "exec-bin ./node_modules/.bin/hugo/hugo mod clean",
+    "update:hugo": "exec-bin ./node_modules/.bin/hugo/hugo mod get -u ./... && hugo mod tidy",
     "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo"
   },
   "devDependencies": {
