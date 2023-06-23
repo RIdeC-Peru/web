@@ -1,6 +1,7 @@
 ---
 date: "2023-01-25"
 title: "El bosón de Higgs, el origen de la masa?"
+categories: [ "física" ]
 image: "images/blog/05.jpg"
 author_info: 
   name: "Alvaro Escudero"

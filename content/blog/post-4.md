@@ -1,7 +1,7 @@
 ---
 date: "2021-07-11"
 title: "Tráfico Ilícito de animales silvestres"
-categories: [ biología ]
+categories: [ "biología" ]
 image: "images/blog/04.png"
 author_info: 
   name: "Luz Bello Noa"

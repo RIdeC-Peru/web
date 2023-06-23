@@ -1,25 +1,28 @@
 ---
-date: "2021-07-09"
-title: "How to write a brief for a new website or app."
+date: "2023-02-01"
+title: "Agujeros Negros: Aspecto Históricos"
+categories: [ "física" ]
 image: "images/blog/06.jpg"
 author_info: 
-  name: "Abdullah Al Shifat"
+  name: "Comisión de Redes"
   image: "images/author/abdullah.jpg"
-draft: true
+draft: false
 ---
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
+## ¿Qué son los Agujeros Negros?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent
+Los agujeros negros son objetos cósmicos que poseen una *gran masa comprimida en una muy pequeña región del espacio*, a esta región los cientificos la llamaron "*singularidad*". Este cuerpo cósmico genera un *campo gravitatorio tan intenso* que no permite que *nada, incluso la luz, pueda escapar*.
 
-Pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet Faucibus consectetur tempus adipiscing vitae. Nec blandit tincidunt nibh nisi, quam volutpat. In lacus laoreet diam risus. Mauris, risus faucibus sagittis sagittis tincidunt id justo. Diam massa pretium consequat mauris viverra. Sagittis eu libero
+Albert Einstein presentó su Teoría de la Relatividad General en 1915, en la que describe a la gravedad como la deformación del espacio-tiempo causada por la masa.
 
->Facing a challenge in life is kind of a turn-on for an easy rider. When life gives you lemons, use them in your designs
->
-> <cite>!Alexender Smith</cite>
+Ese mismo año, el físico Karl Schwarschild estudió la pregunta: ¿Qué pasaría si se comprime una gran cantidad de masa en una ínfima región del espacio?
 
-Consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent volutpat tortor. Ipsum eget sed tempus luctus nisl. Ut etiam molestie mattis at faucibus mi at pellentesque. Pellentesque morbi nunc, curabitur arcu euismod suscipit. Duis mi sapien, donec non dictum
+A partir de esto, Schwarchild obtuvo una fórmula con la que define qué radio debe poseer el espacio en el cual se debe comprimir cierta masa para crear un Agujero Negro.
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis cursus id.
+En el 2019 el Event Horizon Telescope capturó la primera imagen (evidencia directa) de un Agujero Negro, ubicado en la Galaxia M85 a 55 millones de años-luz de la Tierra.
 
-Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet dignissim. Faucibus non tristique eu.
+¿Te gustaría conocer más? Conoces cuál es el radio necesario para formar un Agujero Negro con la masa de la Tierra? Revisa la infografía y entérate de todo! 
+
+¡¡Felicidades!! Ahora conoces más sobre los Agujeros Negros. Te invitamos a seguir nuestras redes para conocer más acerca de temas relacionados a la Física, Química, Matemática, Biología entre otras ciencias básicas!
+
+- Hawking, S. & Ortuño, M. (1988) - Historia  del Tiempo.

@@ -1,7 +1,7 @@
 ---
 date: "2021-11-14"
 title: "Teorema de Incompletitud de Gödel: ¿Las matemáticas tienen contradicciones?"
-categories: [ matemáticas ]
+categories: [ "matemática" ]
 image: "images/blog/01.png"
 author_info: 
   name: "Abdullah Al Shifat"
