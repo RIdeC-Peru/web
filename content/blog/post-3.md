@@ -1,6 +1,7 @@
 ---
 date: "2021-07-12"
 title: "La efectividad de las vacunas frente a las variantes del SARS-CoV-2"
+categories: [ biología ]
 image: "images/blog/03.png"
 author_info: 
   name: "Luz Bello Noa"

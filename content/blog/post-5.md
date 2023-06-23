@@ -1,25 +1,25 @@
 ---
-date: "2021-07-10"
-title: "Using Wakanda for project management when working remote"
+date: "2023-01-25"
+title: "El bosón de Higgs, el origen de la masa?"
 image: "images/blog/05.jpg"
 author_info: 
-  name: "Derick Barker"
+  name: "Alvaro Escudero"
   image: "images/author/derick.jpg"
-draft: true
+draft: false
 ---
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
+El bosón de Higgs lleva el nombre del científico Peter Higgs, quien en 1994 propuso la existencia del campo de Higgs como una forma de describir la fuerza nuclear débil usando la teoría cuántica de campos. La teoría cuántica de campos busca representar cada partícula como una onda en un campo, llamados campos cuánticos. Como antecedentes, en 1901 la hipótesis de Planck trataba acerca de cómo el campo electromagnético podía ser cuantizado en cuantos llamados fotones. Más adelante en 1925 la idea de la cuantización fue aplicada por Schrodinger, que resultó en su ecuación de onda para electrones y estableciendo su dualidad onda-partícula. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent
+El problema de la teoría cuántica de campos de aquella época era que en su aplicación a la fuerza nuclear débil, no permitía teóricamente a las partículas como los bosones W y Z tener masa. Es debido a ese problema que Peter Higgs propone lo que hoy se conoce como el campo de Higgs.
 
-Pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet Faucibus consectetur tempus adipiscing vitae. Nec blandit tincidunt nibh nisi, quam volutpat. In lacus laoreet diam risus. Mauris, risus faucibus sagittis sagittis tincidunt id justo. Diam massa pretium consequat mauris viverra. Sagittis eu libero
+>¿Es el bosón de Higgs el causante de toda la masa en el universo? Descúbrelo en las siguientes diapositivas
 
->Facing a challenge in life is kind of a turn-on for an easy rider. When life gives you lemons, use them in your designs
->
-> <cite>!Alexender Smith</cite>
+{{< gallery dir="/images/post-5" />}}
 
-Consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent volutpat tortor. Ipsum eget sed tempus luctus nisl. Ut etiam molestie mattis at faucibus mi at pellentesque. Pellentesque morbi nunc, curabitur arcu euismod suscipit. Duis mi sapien, donec non dictum
+La física de partículas conlleva muchos campos, teorías y descubrimientos alucinantes como el campo de Higgs.(). ¿Te gustaría conocer más acerca de más temas de física de partículas?
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis cursus id.
+Referencias:
 
-Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet dignissim. Faucibus non tristique eu.
+- CERN. What's so special about the Higgs boson?. https://home.cern/science/physics/higgs-boson/what
+- CERN. How did we discover the Higgs boson? https://home.cern/science/physics/higgs-boson/howhttps://home.cern/science/physics/higgs-boson/how
+- Instituto de Física Teórica. ¿Qué pasaría si no existiera el Higgs? https://www.youtube.com/watch?v=xcWnku_v6W0

@@ -48,3 +48,9 @@ suffixes = [""]
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"
 rel = "manifest"
+
+[taxonomies]
+  categories = "categories"
+
+[permalinks]
+  categories = "/blog/categories/:slug"
