@@ -10,7 +10,7 @@
     "test": "exec-bin ./node_modules/.bin/hugo/hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
     "test:hugo": "exec-bin ./node_modules/.bin/hugo/hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
     "build": "hugo",
-    "build:hugo": "exec-bin ./node_modules/.bin/hugo/hugo --gc --minify --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
+    "build:hugo": "exec-bin ./node_modules/.bin/hugo/hugo --gc --minify --templateMetrics --templateMetricsHints --verbose --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
     "update": "exec-bin ./node_modules/.bin/hugo/hugo mod clean",
     "update:hugo": "exec-bin ./node_modules/.bin/hugo/hugo mod get -u ./... && hugo mod tidy",
     "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo"
