@@ -4,8 +4,8 @@ title: "Teorema de Incompletitud de Gödel: ¿Las matemáticas tienen contradicc
 categories: [ "matemática" ]
 image: "images/blog/01.png"
 author_info: 
-  name: "Abdullah Al Shifat"
-  image: "images/author/abdullah.jpg"
+  name: "Comisión de Redes"
+  image: "images/author/default.jpg"
 draft: false
 ---
 

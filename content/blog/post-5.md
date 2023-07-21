@@ -5,7 +5,7 @@ categories: [ "física" ]
 image: "images/blog/05.jpg"
 author_info: 
   name: "Alvaro Escudero"
-  image: "images/author/derick.jpg"
+  image: "images/author/default.jpg"
 draft: false
 ---
 

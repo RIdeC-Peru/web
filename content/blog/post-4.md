@@ -5,7 +5,7 @@ categories: [ "biología" ]
 image: "images/blog/04.png"
 author_info: 
   name: "Luz Bello Noa"
-  image: "images/author/abdullah.jpg"
+  image: "images/author/default.jpg"
 draft: false
 ---
 

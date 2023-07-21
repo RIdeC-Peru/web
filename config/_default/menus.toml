@@ -10,26 +10,26 @@ url = "about/"
 weight = 2
 
 [[main]]
-name = "Blog"
+name = "Publicaciones"
 url = "blog/"
 weight = 3
 
-[[main]]
-weight = 4
-name = "Páginas"
-hasChildren = true
+# [[main]]
+# weight = 4
+# name = "Páginas"
+# hasChildren = true
 
-  [[main]]
-  parent = "Páginas"
-  name = "Última públicación"
-  url = "blog/post-1/"
-  weight = 1
+#   [[main]]
+#   parent = "Páginas"
+#   name = "Última públicación"
+#   url = "blog/post-1/"
+#   weight = 1
 
-  [[main]]
-  parent = "Páginas"
-  name = "Términos & Condiciones"
-  url = "terms-and-conditions/"
-  weight = 7
+#   [[main]]
+#   parent = "Páginas"
+#   name = "Términos & Condiciones"
+#   url = "terms-and-conditions/"
+#   weight = 7
   
 [[main]]
 name = "Contacto"
