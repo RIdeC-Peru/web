@@ -4,12 +4,12 @@ title: "Agujeros Negros: Aspecto Históricos"
 categories: [ "física" ]
 image: "images/blog/06.jpg"
 author_info: 
-  name: "Comisión de Redes"
+  name: "Alvaro Escudero"
   image: "images/author/default.jpg"
 draft: false
 ---
 
-## ¿Qué son los Agujeros Negros?
+### ¿Qué son los Agujeros Negros?
 
 Los agujeros negros son objetos cósmicos que poseen una *gran masa comprimida en una muy pequeña región del espacio*, a esta región los cientificos la llamaron "*singularidad*". Este cuerpo cósmico genera un *campo gravitatorio tan intenso* que no permite que *nada, incluso la luz, pueda escapar*.
 
@@ -24,6 +24,8 @@ En el 2019 el Event Horizon Telescope capturó la primera imagen (evidencia dire
 ¿Te gustaría conocer más? Conoces cuál es el radio necesario para formar un Agujero Negro con la masa de la Tierra? Revisa la infografía y entérate de todo! 
 
 ¡¡Felicidades!! Ahora conoces más sobre los Agujeros Negros. Te invitamos a seguir nuestras redes para conocer más acerca de temas relacionados a la Física, Química, Matemática, Biología entre otras ciencias básicas!
+
+{{< gallery dir="/images/2023-03-21" />}}
 
 *Referencias*:
 

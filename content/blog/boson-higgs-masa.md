@@ -9,6 +9,8 @@ author_info:
 draft: false
 ---
 
+Las últimas décadas no son ajenas al gran avance del conocimiento científico por medio de los grandes descubrimientos y nuevas teorías en el campo de la física de partículas. Particularmente, el Bosón de Higgs y su descubrimiento en el CERN son hitos y un triunfo de la física experimental en la búsqueda de respuestas a una de las preguntas más fundamentales en la física de partículas: el origen de la masa.
+
 El bosón de Higgs lleva el nombre del científico Peter Higgs, quien en 1994 propuso la existencia del campo de Higgs como una forma de describir la fuerza nuclear débil usando la teoría cuántica de campos. La teoría cuántica de campos busca representar cada partícula como una onda en un campo, llamados campos cuánticos. Como antecedentes, en 1901 la hipótesis de Planck trataba acerca de cómo el campo electromagnético podía ser cuantizado en cuantos llamados fotones. Más adelante en 1925 la idea de la cuantización fue aplicada por Schrodinger, que resultó en su ecuación de onda para electrones y estableciendo su dualidad onda-partícula. 
 
 El problema de la teoría cuántica de campos de aquella época era que en su aplicación a la fuerza nuclear débil, no permitía teóricamente a las partículas como los bosones W y Z tener masa. Es debido a ese problema que Peter Higgs propone lo que hoy se conoce como el campo de Higgs.

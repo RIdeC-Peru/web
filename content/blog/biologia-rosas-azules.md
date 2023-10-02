@@ -2,7 +2,7 @@
 date: "2022-05-22"
 title: "#Biología ¡Rosas azules!"
 categories: [ "biología" ]
-image: "images/blog/05.jpg"
+image: "images/blog/biologia-rosas-azules.jpeg"
 author_info: 
   name: "Brenda Gordillo"
   image: "images/author/default.jpg"
@@ -30,17 +30,9 @@ Obteniendose una producción y acumulación de delfinidina más eficiente y excl
 
 📌 Sin embargo, para lograr el color deseado,🔎 es necesario seleccionar cultivares hospedadores que tengan la menor reacción competitiva contra un gen introducido, mayores cantidades de flavonoles y un pH vacuolar más alto (puesto que las definidinas son sensibles y cambian su color a rojo en pH ácido).
 
-📌Por último, la capacidad para la acumulación exclusiva de delfinidina fue heredable por la progenie, lo que indica que la vía de los flavonoides se modificó constantemente hacia la producción de delfinidina.
-Links:
-
-- https://bit.ly/3aV2IDh
-- https://bit.ly/3rsIMxd
-
-📣 Comparte este post y ayudemos a difundir la ciencia en nuestro país 🇵🇪
-#ComunidadRIdeC #CienciaPerú
-
-{{< gallery dir="/images/post-5" />}}
+📌 Por último, la capacidad para la acumulación exclusiva de delfinidina fue heredable por la progenie, lo que indica que la vía de los flavonoides se modificó constantemente hacia la producción de delfinidina.
 
 Referencias:
 
-- 
+- https://bit.ly/3aV2IDh
+- https://bit.ly/3rsIMxd
