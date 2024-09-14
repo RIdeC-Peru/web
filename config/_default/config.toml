@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://ridec.netlify.app/"
+baseURL = "https://ridecperu.org"
 title = "RIdeC-Perú"
 # post pagination
 paginate = "6"
