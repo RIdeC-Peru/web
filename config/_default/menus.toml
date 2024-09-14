@@ -10,7 +10,7 @@ url = "about/"
 weight = 2
 
 [[main]]
-name = "Publicaciones"
+name = "PublicacionesPPP"
 url = "blog/"
 weight = 3
 
