@@ -15,28 +15,30 @@ who_we_are:
 # what_we_do
 what_we_do:
   enable: true
-  subtitle: "Our Works"
-  title: "What We Do"
+  subtitle: "¿Qué trabajamos?"
+  title: "-"
   block:
-  - title: "Building a new class"
-    content: "Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems"
+  - title: "ODS 4: Educación de Calidad"
+    content: "Contribuimos a este objetivo a través de la promoción de la educación científica de calidad, con énfasis en la creación de recursos, investigaciones y programas educativos accesibles para todos, especialmente en el ámbito de las ciencias."
 
-  - title: "Design for anyone"
-    content: "Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems"
+  - title: "ODS 5: Igualdad de Género"
+    content: "Fomentamos la igualdad de género dentro de la comunidad académica y científica, creando espacios de liderazgo y participación equitativa para mujeres en estos campos. Además, apoya el acceso igualitario a la educación científica para niñas y mujeres jóvenes."
     
-  - title: "Creative flair design"
-    content: "Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems"
+  - title: "ODS 9: Industria, Innovación e Infraestructura"
+    content: "Impulsamos la innovación científica y tecnológica en el ámbito educativo, promoviendo la investigación y el desarrollo de proyectos que favorezcan la industrialización sostenible. Al promover la innovación, apoya el crecimiento de nuevas ideas y tecnologías aplicadas a problemas sociales y económicos."
     
-  - title: "Building products"
-    content: "Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems"
+  - title: "ODS 10: Reducción de las Desigualdades"
+    content: "Nos esforzamos en disminuir las brechas en el acceso a la educación y a las oportunidades científicas. Mediante la creación de programas educativos y de investigación accesibles a todas las personas, especialmente a grupos en situación de vulnerabilidad, la organización fomenta la inclusión y busca cerrar las desigualdades en el ámbito de las ciencias."
 
 # our_mission
 our_mission:
   enable: true
-  subtitle: "OUR MISSION"
-  title: "Main Vision And Mission Of Our Company"
-  description: "We were freelance designers and developers, constantly finding ourselve deep vague feedback. leaving a notes from the sticky note piece ."
+  subtitle: "-"
+  title: "Misión y Visión"
+  description: "Nuestra misión es fomentar la integración entre estudiantes y profesionales, sirviendo de enlace entre diversos niveles de investigación. Buscamos facilitar la colaboración entre grupos de investigación, institutos de investigación y divulgadores científicos, impulsando así una red dinámica y colaborativa.
 
+  Aspiramos a ser reconocidos como el principal agente de cambio en el panorama científico peruano. Nos visualizamos como la plataforma central que conecta de manera efectiva a los estudiantes con los líderes de la investigación, creando sinergias significativas. Buscamos ser el referente esencial en el fomento de las ciencias básicas, promoviendo una cultura de investigación e innovación. Nuestra visión es ser la fuerza motriz que inspira y fortalece la comunidad científica peruana, marcando un impacto positivo en el presente y el futuro de la investigación en nuestro país."
+ 
   image: "images/about/02.jpg"
 
 # about_video
