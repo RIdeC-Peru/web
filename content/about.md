@@ -42,18 +42,18 @@ our_mission:
 # about_video
 about_video:
   enable: true
-  subtitle: "A Short Video"
+  subtitle: "Divulgación y Sociedad"
   title: "You Take Care Of The Payments, We Take Care Of The Rest."
   description: "Protect your design vision and leave nothing up to interpretation with interaction recipes. Quickly share and access all your team members interactions by using libraries, ensuring consistcy throughout the."
-  video_url: "https://www.youtube.com/embed/dyZcRRWiuuw"
+  video_url: "https://www.youtube.com/watch?v=5U-VDTHA_Sw&list=PLYS21GGs1qb9UcpNf4SEOLvWBpY3W4XH5"
   video_thumbnail: "images/about/video-popup-2.jpg"
 
 
 # brands
 brands_carousel:
   enable: true
-  subtitle: "Our Clients"
-  title: "Trusted by Thousands Companies"
+  subtitle: "-" 
+  title: "Nuestras redes sociales"
   section: "/" # brand images comming form _index.md
 
 

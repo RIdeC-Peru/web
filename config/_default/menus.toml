@@ -5,7 +5,7 @@ url = ""
 weight = 1
 
 [[main]]
-name = "NosotrosRIdeC"
+name = "Nosotros"
 url = "about/"
 weight = 2
 
