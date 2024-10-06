@@ -50,7 +50,7 @@ about_video:
 
   Impulsados por esta valiosa información, nos embarcamos en la creación de este proyecto. En nuestras interacciones con representantes de las carreras de Matemática, Física, Química y Biología, llegamos a la conclusión de que los factores que contribuyen a la deserción son diversos y complejos."
   video_url: "https://www.youtube.com/watch?v=5U-VDTHA_Sw&list=PLYS21GGs1qb9UcpNf4SEOLvWBpY3W4XH5"
-  #video_thumbnail: "images/about/Ingresantes_Egresados_Fisica.png"
+  video_thumbnail: "images/about/Ingresantes_Egresados_Fisica.png"
 
 
 # brands
