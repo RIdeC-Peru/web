@@ -49,7 +49,7 @@ about_video:
   description: "En el año 2019, los fundadores de nuestra red establecieron contacto con los representantes estudiantiles de tres prestigiosas universidades: la Universidad Católica del Perú, la Universidad Nacional del Callao y la Universidad Federico Villareal. Durante este período, llevamos a cabo un exhaustivo estudio enfocado en las cohortes de ingresantes de ambos semestres del 2014 y los egresados que completaron su trámite en el 2019, específicamente en la carrera de Física en pregrado. Los resultados revelaron tasas de deserción del 82.7%, 36.4%, y 86.7%, respectivamente.
 
   Impulsados por esta valiosa información, nos embarcamos en la creación de este proyecto. En nuestras interacciones con representantes de las carreras de Matemática, Física, Química y Biología, llegamos a la conclusión de que los factores que contribuyen a la deserción son diversos y complejos."
-  video_url: "https://www.youtube.com/watch?v=5U-VDTHA_Sw&list=PLYS21GGs1qb9UcpNf4SEOLvWBpY3W4XH5"
+  video_url: "https://www.youtube.com/embed/5U-VDTHA_Sw"
   video_thumbnail: "images/about/Ingresantes_Egresados_Fisica.png"
 
 
