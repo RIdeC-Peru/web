@@ -1,6 +1,6 @@
 # main menu
 [[main]]
-name = "InicioP"
+name = "Inicio"
 url = ""
 weight = 1
 
@@ -10,7 +10,7 @@ url = "about/"
 weight = 2
 
 [[main]]
-name = "PublicacionesPPP"
+name = "Publicaciones"
 url = "blog/"
 weight = 3
 
