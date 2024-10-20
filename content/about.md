@@ -15,8 +15,8 @@ who_we_are:
 # what_we_do
 what_we_do:
   enable: true
-  subtitle: "¿Qué trabajamos?"
-  title: "-"
+  subtitle: " "
+  title: "¿Qué trabajamos?"
   block:
   - title: "ODS 4: Educación de Calidad"
     content: "Contribuimos a este objetivo a través de la promoción de la educación científica de calidad, con énfasis en la creación de recursos, investigaciones y programas educativos accesibles para todos, especialmente en el ámbito de las ciencias."
@@ -33,7 +33,7 @@ what_we_do:
 # our_mission
 our_mission:
   enable: true
-  subtitle: "-"
+  subtitle: " "
   title: "Misión y Visión"
   description: "Nuestra misión es fomentar la integración entre estudiantes y profesionales, sirviendo de enlace entre diversos niveles de investigación. Buscamos facilitar la colaboración entre grupos de investigación, institutos de investigación y divulgadores científicos, impulsando así una red dinámica y colaborativa.
 
@@ -44,7 +44,7 @@ our_mission:
 # about_video
 about_video:
   enable: true
-  subtitle: "-"
+  subtitle: " "
   title: "¿Por qué fundamos RIdeC?"
   description: "En el año 2019, los fundadores de nuestra red establecieron contacto con los representantes estudiantiles de tres prestigiosas universidades: la Universidad Católica del Perú, la Universidad Nacional del Callao y la Universidad Federico Villareal. Durante este período, llevamos a cabo un exhaustivo estudio enfocado en las cohortes de ingresantes de ambos semestres del 2014 y los egresados que completaron su trámite en el 2019, específicamente en la carrera de Física en pregrado. Los resultados revelaron tasas de deserción del 82.7%, 36.4%, y 86.7%, respectivamente.
 
@@ -56,7 +56,7 @@ about_video:
 # brands
 brands_carousel:
   enable: true
-  subtitle: "-" 
+  subtitle: " " 
   title: "Nuestras redes sociales"
   section: "/" # brand images comming form _index.md
 

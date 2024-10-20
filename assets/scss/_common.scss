@@ -67,7 +67,6 @@ body {
     margin-bottom: 40px;
     position: relative;
     line-height: 1.3;
-    text-align: justify;
 
     &::after {
       position: absolute;
@@ -86,6 +85,7 @@ body {
 
       &::after {
         display: none;
+        text-align: justify;
       }
     }
 
