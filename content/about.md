@@ -8,7 +8,7 @@ who_we_are:
   enable: true
   subtitle: "¿Quiénes somos?"
   title: "Somos RIdeC-Perú"
-  description: "Una organización de estudiantes y profesionales interesados en fomentar las ciencias básicas y afines con la misión de impulsar la integración de estudiantes con investigadores de diversos niveles; y la visión de ser el mediador de los grupos de investigación, institutos de investigación y grupos de divulgación en ciencias en el Perú, para generar nexos entre ellas y los estudiantes peruanos."
+  description: "Una organización de estudiantes y profesionales interesados en fomentar las ciencias básicas y afines con la misión de impulsar la integración de estudiantes con investigadores de diversos niveles; y la visión de ser el mediador de los grupos de investigación, institutos de investigación y grupos de divulgación en ciencias en el Perú, para generar nexos entre ellas y los estudiantes peruanos"
 
   image: "images/about/01.jpg"
 
@@ -19,27 +19,24 @@ what_we_do:
   title: "¿Qué trabajamos?"
   block:
   - title: "ODS 4: Educación de Calidad"
-    content: "Contribuimos a este objetivo a través de la promoción de la educación científica de calidad, con énfasis en la creación de recursos, investigaciones y programas educativos accesibles para todos, especialmente en el ámbito de las ciencias."
+    content: "Promovemos la educación científica de calidad, centrada en la creación de recursos, investigaciones y programas accesibles para todos, con especial atención en las ciencias básicas y su impacto en la sociedad."
 
   - title: "ODS 5: Igualdad de Género"
-    content: "Fomentamos la igualdad de género dentro de la comunidad académica y científica, creando espacios de liderazgo y participación equitativa para mujeres en estos campos. Además, apoya el acceso igualitario a la educación científica para niñas y mujeres jóvenes."
-    
+    content: "Promovemos la igualdad de género en la comunidad académica y científica, facilitando el liderazgo y la participación equitativa de mujeres, al mismo tiempo que fomentamos la educación científica para niñas y jóvenes."
+
   - title: "ODS 9: Industria, Innovación e Infraestructura"
-    content: "Impulsamos la innovación científica y tecnológica en el ámbito educativo, promoviendo la investigación y el desarrollo de proyectos que favorezcan la industrialización sostenible. Al promover la innovación, apoya el crecimiento de nuevas ideas y tecnologías aplicadas a problemas sociales y económicos."
+    content: "Apoyamos la innovación científica y tecnológica mediante proyectos que favorecen la industrialización sostenible, impulsando el crecimiento de ideas y tecnologías que resuelvan desafíos económicos y sociales."
     
   - title: "ODS 10: Reducción de las Desigualdades"
-    content: "Nos esforzamos en disminuir las brechas en el acceso a la educación y a las oportunidades científicas. Mediante la creación de programas educativos y de investigación accesibles a todas las personas, especialmente a grupos en situación de vulnerabilidad, la organización fomenta la inclusión y busca cerrar las desigualdades en el ámbito de las ciencias."
+    content: "Trabajamos para reducir las desigualdades en el acceso a la educación científica, promoviendo programas educativos inclusivos para todos, con especial atención en aquellos que pertenecen a grupos vulnerables."
 
 # our_mission
 our_mission:
   enable: true
   subtitle: " "
-  title: " "
-  block:
-  - title: "Misión"
-    content: "Nuestra misión es fomentar la integración entre estudiantes y profesionales, sirviendo de enlace entre diversos niveles de investigación. Buscamos facilitar la colaboración entre grupos de investigación, institutos de investigación y divulgadores científicos, impulsando así una red dinámica y colaborativa." 
-  - title: "Visión"
-    content: "Aspiramos a ser reconocidos como el principal agente de cambio en el panorama científico peruano. Nos visualizamos como la plataforma central que conecta de manera efectiva a los estudiantes con los líderes de la investigación, creando sinergias significativas. Buscamos ser el referente esencial en el fomento de las ciencias básicas, promoviendo una cultura de investigación e innovación. Nuestra visión es ser la fuerza motriz que inspira y fortalece la comunidad científica peruana, marcando un impacto positivo en el presente y el futuro de la investigación en nuestro país."
+  title: "Misión y Visión"
+  description: "Fomentamos la integración entre estudiantes y profesionales, facilitando la colaboración entre grupos e institutos de investigación, creando una red dinámica y colaborativa. 
+  Aspiramos a ser el principal agente de cambio en el panorama científico peruano, conectando estudiantes con líderes de investigación, promoviendo una cultura de investigación e innovación que fortalezca la comunidad científica del país."
  
   image: "images/about/02.jpg"
 
@@ -48,9 +45,7 @@ about_video:
   enable: true
   subtitle: " "
   title: "¿Por qué fundamos RIdeC?"
-  description: "En el año 2019, los fundadores de nuestra red establecieron contacto con los representantes estudiantiles de tres prestigiosas universidades: la Universidad Católica del Perú, la Universidad Nacional del Callao y la Universidad Federico Villareal. Durante este período, llevamos a cabo un exhaustivo estudio enfocado en las cohortes de ingresantes de ambos semestres del 2014 y los egresados que completaron su trámite en el 2019, específicamente en la carrera de Física en pregrado. Los resultados revelaron tasas de deserción del 82.7%, 36.4%, y 86.7%, respectivamente.
-
-  Impulsados por esta valiosa información, nos embarcamos en la creación de este proyecto. En nuestras interacciones con representantes de las carreras de Matemática, Física, Química y Biología, llegamos a la conclusión de que los factores que contribuyen a la deserción son diversos y complejos."
+  description: "En 2019, los fundadores de nuestra red contactaron a representantes estudiantiles de tres universidades peruanas, realizando un estudio sobre las cohortes de ingresantes de Física y egresados en 2019. El estudio reveló altas tasas de deserción (82.7%, 36.4%, y 86.7%). Motivados por estos resultados, iniciamos este proyecto, identificando factores diversos y complejos que influyen en la deserción en carreras como Matemática, Física, Química y Biología."
   video_url: "https://www.youtube.com/embed/5U-VDTHA_Sw"
   video_thumbnail: "images/about/Ingresantes_Egresados_Fisica.png"
 
