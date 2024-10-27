@@ -37,8 +37,7 @@ our_mission:
   title: "Misión y Visión"
   description: "Fomentamos la integración entre estudiantes y profesionales, facilitando la colaboración entre grupos e institutos de investigación, creando una red dinámica y colaborativa. 
   Aspiramos a ser el principal agente de cambio en el panorama científico peruano, conectando estudiantes con líderes de investigación, promoviendo una cultura de investigación e innovación que fortalezca la comunidad científica del país.
-  Fomentamos la integración entre estudiantes y profesionales, facilitando la colaboración entre grupos e institutos de investigación, creando una red dinámica y colaborativa. 
-  Aspiramos a ser el principal agente de cambio en el panorama científico peruano, conectando estudiantes con líderes de investigación, promoviendo una cultura de investigación e innovación que fortalezca la comunidad científica del país."
+  Fomentamos la integración entre estudiantes y profesionales, facilitando la colaboración entre grupos e institutos de investigación, creando una red dinámica y colaborativa."
  
   image: "images/about/02.jpg"
 
