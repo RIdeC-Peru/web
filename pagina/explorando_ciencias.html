@@ -20,53 +20,115 @@
         </div>
     </header>
 
-    <section class="banner">
-        <img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt="">
-        <h1>Explorando ciencias</h1>
+    <main class="evento-main">
+        <div class="evento-header">
+            <div class="evento-titulo">
+                <h1>Explorando Ciencias</h1>
+                <div class="evento-anio-selector">
 
-    </section>
-
-    <section class="redes-sociales">
-        <img src="" alt=""><a href=""></a><a href=""></a><a href=""></a><a href=""></a><a href=""></a></img>
-
-    </section>
-
-    <main class="content">
-        <div class="column">
-            <div class="item">
-                <div class="image"><img src="" alt=""></div>
-                MATEMATICA
-            </div>
-            <div class="item">
-                <div class="image"><img src="" alt=""></div>
-                QUÍMICA
+                    <select id="filtro-anio">
+                        <option value="todos">Todos los años</option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                    </select>
+                </div>
             </div>
         </div>
-        <div class="column">
-            <div class="item">
-                <div class="image"><img src="" alt=""></div>
-                FISICA
-            </div>
-            <div class="item">
-                <div class="image"><img src="" alt=""></div>
-                CIENCIAS DE LA COMPUTACIÓN
-            </div>
-        </div>
-        <div class="column">
-            <div class="item">
-                <div class="image"><img src="" alt=""></div>
-                BIOLOGIA
-            </div>
-            <div class="item">
-                <div class="image"><img src="" alt=""></div>
-                MEDICINA
-            </div>
-        </div>
-    </main>
 
-    <footer>
+        <section class="evento-info">
+            <img class="evento-img" src="imagen.jpg" alt="Microscopio">
+            <div class="evento-detalles">
+                <div>
+                    <h2>Sobre el evento</h2>
+                    <p>
+                    Explorando ciencias es un evento anual
+                    </p>
+                </div>
+                <ul class="detalles-lista">
+                    <li><b>Fecha:</b> <span id="evento-fecha">28 de julio de 2024</span></li>
+                    <li><b>Lugar:</b> <span id="evento-lugar">Auditorio de la Faculad de ciencias</span></li>
+                    <li><b>Duración:</b> 2 horas</li>
+                    <li><b>Modalidad:</b> Presencial</li>
+                </ul>
+            </div>
+        </section>
 
-    </footer>
+        <section class="evento-objetivos">
+            <h2>Objetivos del evento</h2>
+            <ul>
+                <li>Actualizarse sobre los temas en ciencias naturales y exactas.</li>
+                <li>Fomentar el intercambio de ideas y la colaboración multidisciplinaria.</li>
+                <li>Promover la vocación científica en jóvenes y profesionales.</li>
+            </ul>
+        </section>
+
+        <section class="evento-ponentes">
+            <h2>Ponentes principales</h2>
+            <div class="ponentes-lista">
+                <div class="ponente-card">
+                    <img src="imagen.jpg" alt="Dra. Perez">
+                    <div>
+                        <b>Dra. Perez</b>
+                        <p>Bióloga molecular</p>
+                    </div>
+                </div>
+                <div class="ponente-card">
+                    <img src="imagen.jpg" alt="Dr. Sanchez">
+                    <div>
+                        <b>Dr. Sanchez</b>
+                        <p>Profesor de Física</p>
+                    </div>
+                </div>
+                <div class="ponente-card">
+                    <img src="imagen.jpg" alt="Dra. Campos">
+                    <div>
+                        <b>Dra. Campos</b>
+                        <p>Especialista en Bioligía</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="evento-programa">
+            <h2>Programa</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hora</th>
+                        <th>Actividad</th>
+                    </tr>
+                </thead>
+                <tbody id="programa-tbody">
+                </tbody>
+            </table>
+            <a href="#" class="btn-inscripcion" id="btn-inscripcion">Inscribirse</a>
+        </section>
+
+        <section class="evento-galeria">
+            <h2>Galería y testimonios</h2>
+            <div class="galeria-testimonios">
+                <div class="galeria-fotos">
+                    <img src="imagen.jpg" alt="Foto evento 1">
+                    <img src="imagen.jpg" alt="Foto evento 2">
+                </div>
+                <div class="testimonios">
+                    <blockquote>
+                    “Mas eventos”
+                        <cite>- Andrea M., asistente 2023</cite>
+                    </blockquote>
+                    <blockquote>
+                    “Divulgación científica.”<br>
+                        <cite>- Perez, expositor 2022</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <div class="volver-lista">
+            <a href="eventos.html" class="btn-volver">← Volver a todos los eventos</a>
+        </div>
+  </main>
     
 </body>
 </html>
