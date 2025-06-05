@@ -1,57 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eventos | Divulgación Científica</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- 
-        Banner
-        Redes sociales - menú de años
-        Eventos por selección de año
-    -->
-    <div  class="logo"><img src="" alt="">
-    <a href="index.html"></a>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-                <a href="nosotros.html">NOSOTROS</a>
-            </li>
-            <li>
-                <a href="eventos.html">EVENTOS</a>
-            </li>
-            <li>
-                <a href="oportunidades.html">OPORTUNIDADES</a>
-            </li>
-        </ul>
-    </div>
+    <header class="main-header">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+        </div>
+        <nav class="nav-menu" aria-label="Menú principal">
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="menu-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="oportunidades.html">Oportunidades</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
     <section class="proximos-eventos">
         <h2>Próximos eventos</h2>
         <div class="carrusel-container">
             <button class="carrusel-btn prev">&#10094;</button>
             <div class="carrusel" id="carrusel">
+                <!-- Banners de eventos próximos -->
                 <div class="banner">
-                    <img src="imagen.jpg">
+                    <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=facearea&w=500&q=80" alt="Explorando Ciencias">
                     <div class="banner-info">
                         <h3>Explorando Ciencias</h3>
-                        <p class="fecha">01 de enero de 2024</p>
-                        <p>evento.</p>
+                        <p class="fecha">15 de agosto de 2024</p>
+                        <p>Un evento anual dedicado a explorar los últimos avances en diversas disciplinas científicas.</p>
                         <a href="#" class="btn-primary">Inscribirse</a>
                     </div>
                 </div>
                 <div class="banner">
-                    <img src="imagen.jpg">
+                    <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=facearea&w=500&q=80" alt="Generando Lazos">
                     <div class="banner-info">
                         <h3>Generando Lazos</h3>
-                        <p class="fecha">01 de enero de 2024</p>
-                        <p>evento.</p>
+                        <p class="fecha">23 de septiembre de 2024</p>
+                        <p>Conferencias y talleres para fortalecer la colaboración científica interinstitucional.</p>
                         <a href="#" class="btn-primary">Inscribirse</a>
                     </div>
                 </div>
+                <!-- Se puede agregar más banners aquí -->
             </div>
             <button class="carrusel-btn next">&#10095;</button>
         </div>
@@ -72,26 +71,23 @@
         </div>
     </section>
 
+    <script src="script.js"></script>
+</body>
 
-  <!--  <h3>EVENTOS ACADÉMICOS (GENERANDO LAZOS, EXPLORANDO CIENCIAS, 
+
+    <!-- 
+        EVENTOS ACADÉMICOS (GENERANDO LAZOS, EXPLORANDO CIENCIAS, 
 
         FOROS, MANUAL DE SUPERVIVENCIA, COLABORACIONES CON OTRAS AGR.)
 
         3.B.1) GENERANDO LAZOS: G.L. DIVULGACIÓN Y SOCIEDAD (AGR.               DIVULGACIÓN)  -- JUAN
-
             G.L. INVESTIGACIÓN Y SOCIEDAD (GR. INVESTIGACIÓN)
-
             G.L. INSTITUCIONES INVESTIG. Y SOCIEDAD (INSTITUCIONES -- IMARPE, CONIDA, IGP, IPEN, ETC) 
 
-    3.B.2) EXPLORANDO CIENCIAS (FÍSICA, QUIMICA, BIOLOGIA, MATEMATICA, CC, CS, CD, MEDICINA, ETC) -- Cristhian
+        3.B.2) EXPLORANDO CIENCIAS (FÍSICA, QUIMICA, BIOLOGIA, MATEMATICA, CC, CS, CD, MEDICINA, ETC) -- Cristhian
 
-    3.B.3) FOROS: 2019, 2020, 2022, 2023.... 
+        3.B.3) FOROS: 2019, 2020, 2022, 2023.... 
 
-    3.B.4) [NOMBRE PROVISIONAL] ENTREVISTA A UN INVESTIGADOR: (FISICA, QUIMICA, BIOLOGIA, MATEMATICA, ETC)
- </h3>  -->
-
-
-
-    
-</body>
+        3.B.4) [NOMBRE PROVISIONAL] ENTREVISTA A UN INVESTIGADOR: (FISICA, QUIMICA, BIOLOGIA, MATEMATICA, ETC)
+    -->
 </html>
