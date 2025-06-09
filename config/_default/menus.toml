@@ -36,6 +36,11 @@ name = "Contacto"
 url = "contact/"
 weight = 5
 
+[[main]]
+name = "Pagina RIdec 2"
+url = "../pagina/index.html"
+weight = 6
+
 
 # footer menu
 [[footer]]

@@ -2,7 +2,8 @@
 baseURL = "https://ridecperu.org"
 title = "RIdeC-Perú"
 # post pagination
-paginate = "6"
+[pagination]
+  pagerSize = 6
 # post excerpt
 summaryLength = "10"
 # google analytics
@@ -54,3 +55,5 @@ rel = "manifest"
 
 [permalinks]
   categories = "/blog/categories/:slug"
+
+

@@ -1,5 +1,5 @@
 ---
-date: "2021-12-9"
+date: 2021-12-09
 title: "SWGO en Perú: Proyecto SWGO para la Astronomía Gamma en el Hemisferio Sur"
 categories: [ "física" ]
 image: "images/blog/swgo-en-peru-fisica.jpg"

@@ -1,5 +1,11 @@
 // Personas 
 const personas = {
+  "fulano-hernandez": {
+    nombre: "Fulano Hernández",
+    tipo: "Persona",
+    descripcion: "Investigador destacado en biomedicina, con múltiples publicaciones en revistas científicas de alto impacto.",
+    universidad: "upch",
+  },
   "fabiola-leon-velarde": {
     nombre: "Fabiola León-Velarde",
     tipo: "Persona",
