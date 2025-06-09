@@ -1,7 +1,7 @@
 # main menu
 [[main]]
 name = "Inicio"
-url = "ridecperu.org/pagina/index.html"
+url = "pagina/index.html"
 weight = 1
 
 [[main]]
