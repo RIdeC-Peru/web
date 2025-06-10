@@ -1,7 +1,7 @@
 ---
 # banner
 banner:
-  title: "Por más fisica, química, biología y matemáticas"
+  title: "Por mucha más fisica, química, biología y matemáticas"
   button: "Lee nuestras publicaciones"
   button_link: "/blog"
   image: "images/banner-app.png"

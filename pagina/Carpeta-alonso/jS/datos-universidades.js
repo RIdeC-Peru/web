@@ -103,7 +103,7 @@ const universidades = {
     tipo: "Universidad",
     descripcion: "Privada líder en biomedicina, fisiología de altura y medicina tropical.",
     enlace: "https://www.cayetano.edu.pe",
-    personas: ["fabiola-leon-velarde", "carlos-bustamante"],
+    personas: ["fabiola-leon-velarde", "carlos-bustamante","fulano-hernandez"],
     grupos: ["medicina-tropical", "investigacion-altura"]
   },
   "utec": {

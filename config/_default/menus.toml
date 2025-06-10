@@ -2,7 +2,7 @@
 [[main]]
 name = "Inicio"
 url = ""
-weight = 1
+sweight = 1
 
 [[main]]
 name = "NosotrosPP"
@@ -35,6 +35,11 @@ weight = 3
 name = "Contacto"
 url = "contact/"
 weight = 5
+
+[[main]]
+name = "Pagina RIdec 2"
+url = "../pagina/index.html"
+weight = 6
 
 
 # footer menu
