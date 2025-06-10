@@ -1,8 +1,13 @@
 # main menu
 [[main]]
 name = "Inicio"
+<<<<<<< HEAD
 url = ""
+sweight = 1
+=======
+url = "pagina/index.html"
 weight = 1
+>>>>>>> 0a199f3f2febd85be62059ffab3469d1837492d0
 
 [[main]]
 name = "NosotrosPP"
