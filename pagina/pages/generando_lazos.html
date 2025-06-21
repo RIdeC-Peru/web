@@ -4,106 +4,38 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Generando Lazos</title>
-  <link rel="stylesheet" href="./CSS/style1.css" />
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/generando_lazos.css">
 </head>
 <body>
 
-  
-<header class="encabezado-principal">
-<a href="../index.html" class="boton-volver">⟵ Índice principal</a>
-  <h1>Generando Lazos</h1>
-</header>
+  <div id="header-container"></div>
 
-<nav class="barra-contenido">
-  <ul>
-    <li>
-      <div class="menu-titulo">Universidades</div>
-      <div class="submenu">
-        <p>UNI, San Marcos, PUCP, UNT, UNAC</p>
-      </div>
-    </li>
-    <li>
-      <div class="menu-titulo">Instituciones</div>
-      <div class="submenu">
-        <p>IGP, CONCYTEC, IPEN</p>
-      </div>
-    </li>
-    <li>
-      <div class="menu-titulo">Grupos</div>
-      <div class="submenu">
-        <p>QuantumQuipu, GIPC, otros</p>
-      </div>
-    </li>
-    <li>
-      <div class="menu-titulo">Personas</div>
-      <div class="submenu">
-        <p>Juan Pérez, y más investigadores</p>
-      </div>
-    </li>
-    <li>
-      <div class="menu-titulo">Miscelánea</div>
-      <div class="submenu">
-        <p>Cientificos.pe, ASPAST, Colegio de Físicos</p>
-      </div>
-    </li>
-  </ul>
-</nav>
+  <header class="encabezado-principal">
+    <a href="/index.html" class="boton-volver">⟵ Índice principal</a>
+    <h1>Generando Lazos</h1>
+  </header>
+
+  <nav class="barra-contenido">
+    <ul>
+      <li><div class="menu-titulo">Universidades</div></li>
+      <li><div class="menu-titulo">Instituciones</div></li>
+      <li><div class="menu-titulo">Grupos</div></li>
+      <li><div class="menu-titulo">Personas</div></li>
+      <li><div class="menu-titulo">Miscelánea</div></li>
+    </ul>
+  </nav>
 
   <main>
-
-
- <!--   <section>
-      <h1>Resumen del Proyecto</h1>
-      <ul>
-        <li>Breve reseña de los grupos de investigación y sus miembros</li>
-        <li>Enlaces a páginas oficiales de los grupos de investigación</li>
-        <li>Instituciones y sociedades de investigación</li>
-        <li>Investigación de sociedad</li>
-      </ul>
-    </section>
---> 
-  
-    <!-- Contenedores donde se inyectará el contenido -->
-    <section><h2>Universidades</h2><div id="universidades" class="card-container"></div></section>
-    <section><h2>Instituciones</h2><div id="instituciones" class="card-container"></div></section>
-    <section><h2>Grupos de Investigación</h2><div id="grupos" class="card-container"></div></section>
-    <section><h2>Personas</h2><div id="personas" class="card-container"></div></section>
-    <section><h2>Miscelánea</h2><div id="miscelaneos" class="card-container"></div></section>
-
+    <div id="generando-universidades"></div>
+    <div id="generando-instituciones"></div>
+    <div id="generando-grupos"></div>
+    <div id="generando-personas"></div>
+    <div id="generando-miscelaneos"></div>
   </main>
 
-  <!-- Carga los datos de cada tipo -->
-  <script src="js/datos-universidades.js"></script>
-  <script src="js/datos-instituciones.js"></script>
-  <script src="js/datos-grupos.js"></script>
-  <script src="js/datos-miscelaneos.js"></script>
-  <script src="js/datos-personas.js"></script>
-  <script>
-    function crearTarjetas(base, destino) {
-      const contenedor = document.getElementById(destino);
-      if (!contenedor) return;
+  <div id="footer-container"></div>
 
-      Object.entries(base).forEach(([tag, entidad]) => {
-        const card = document.createElement("div");
-        card.className = "flip-card";
-        card.innerHTML = `
-          <div class="flip-card-inner">
-            <div class="flip-card-front"><h3>${entidad.nombre}</h3></div>
-            <div class="flip-card-back">
-              <p>${entidad.descripcion || "Sin descripción."}</p>
-              <a href="ficha.html?tag=${tag}">Ver más</a>
-            </div>
-          </div>
-        `;
-        contenedor.appendChild(card);
-      });
-    }
-
-    crearTarjetas(universidades, "universidades");
-    crearTarjetas(instituciones, "instituciones");
-    crearTarjetas(grupos, "grupos");
-    crearTarjetas(personas, "personas");
-    crearTarjetas(miscelaneos, "miscelaneos");
-  </script>
+  <script src="/assets/js/generando_lazos.js"></script>
 </body>
 </html>

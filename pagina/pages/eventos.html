@@ -1,65 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Eventos | Divulgación Científica</title>
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="stylesheet" href="/assets/css/eventos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eventos | Divulgación Científica</title>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/eventos.css">
 </head>
 <body>
 
-    <div id="header-container"></div> 
+  <div id="header-container"></div> 
 
+  <main>
+    <div id="eventos-proximos"></div>
+    <div id="eventos-anteriores"></div>
+    <div id="eventos-publicaciones"></div>
+  </main>
 
-    <section class="proximos-eventos">
-        <h2>Próximos eventos</h2>
-        <div class="carrusel-container">
-            <button class="carrusel-btn prev">&#10094;</button>
-            <div class="carrusel" id="carrusel">
-                <!-- Banners de eventos próximos -->
-                <div class="banner">
-                    <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=facearea&w=500&q=80" alt="Explorando Ciencias">
-                    <div class="banner-info">
-                        <h3>Explorando Ciencias</h3>
-                        <p class="fecha">15 de agosto de 2024</p>
-                        <p>Un evento anual dedicado a explorar los últimos avances en diversas disciplinas científicas.</p>
-                        <a href="#" class="btn-primary">Inscribirse</a>
-                    </div>
-                </div>
-                <div class="banner">
-                    <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=facearea&w=500&q=80" alt="Generando Lazos">
-                    <div class="banner-info">
-                        <h3>Generando Lazos</h3>
-                        <p class="fecha">23 de septiembre de 2024</p>
-                        <p>Conferencias y talleres para fortalecer la colaboración científica interinstitucional.</p>
-                        <a href="#" class="btn-primary">Inscribirse</a>
-                    </div>
-                </div>
-                <!-- Se puede agregar más banners aquí -->
-            </div>
-            <button class="carrusel-btn next">&#10095;</button>
-        </div>
-    </section>
+  <div id="footer-container"></div>
 
-    <section class="anteriores-eventos">
-        <div class="titulo-filtro">
-            <h2>Eventos anteriores</h2>
-            <select id="filtro-anio">
-                <option value="todos">Todos los años</option>
-                <option value="2024">2024</option>
-                <option value="2023">2023</option>
-                <option value="2022">2022</option>
-            </select>
-        </div>
-        <div class="eventos-lista" id="eventos-lista">
-        <!-- Eventos anteriores se llenan por JS -->
-        </div>
-    </section>
-
-<script src="/assets/js/incluir-header.js"></script>
+  <script src="/assets/js/eventos.js"></script>
 </body>
-
+</html>
 
     <!-- 
         EVENTOS ACADÉMICOS (GENERANDO LAZOS, EXPLORANDO CIENCIAS, 
@@ -76,4 +38,3 @@
 
         3.B.4) [NOMBRE PROVISIONAL] ENTREVISTA A UN INVESTIGADOR: (FISICA, QUIMICA, BIOLOGIA, MATEMATICA, ETC)
     -->
-</html>

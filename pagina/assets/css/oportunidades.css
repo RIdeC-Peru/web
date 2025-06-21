@@ -1,0 +1,74 @@
+/* Layout general */
+.op-menu {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.op-menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.op-menu button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #0f3d3e;
+  color: white;
+  font-weight: 500;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.op-menu button:hover {
+  background-color: #145d5e;
+}
+
+/* Contenedor de contenido dinámico */
+.op-content {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.op-content h3 {
+  grid-column: 1 / -1;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #0f3d3e;
+}
+
+/* Tarjetas de contenido */
+.op-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.op-content li {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s;
+}
+
+.op-content li:hover {
+  transform: translateY(-5px);
+}
+
+.op-content a {
+  font-weight: bold;
+  color: #0f3d3e;
+  text-decoration: none;
+}
+
+.op-content a:hover {
+  text-decoration: underline;
+}

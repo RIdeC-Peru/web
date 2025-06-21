@@ -44,12 +44,18 @@ li {
 
 /* === Contenedor de tarjetas === */
 .card-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 55px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 30px;
+  justify-items: flex-start;
   margin-top: 20px;
-  justify-content: center;
-  padding: 10px 20px; /* horizontal más amplio */
+  padding: 10px 40px;
+}
+
+@media screen and (min-width: 1280px) {
+  .card-container {
+    grid-template-columns: repeat(3, 1fr); /* Fuerza 5 columnas en pantallas grandes */
+  }
 }
 
 /* === Tarjeta giratoria moderna === */
