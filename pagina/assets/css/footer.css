@@ -1,0 +1,25 @@
+/* --- Footer --- */
+.footer { background-color: var(--color-primary); color: rgba(255, 255, 255, 0.8); padding-top: 4rem; }
+.footer__content {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    padding-bottom: 3rem;
+}
+.footer__title { font-family: var(--font-heading); color: var(--color-white); font-size: 1.2rem; margin-bottom: 1rem; }
+.footer__section--about p { line-height: 1.7; margin-top: 1rem; }
+.footer__section ul { list-style: none; }
+.footer__section ul li { margin-bottom: 0.75rem; }
+.footer__section a { color: rgba(255, 255, 255, 0.8); text-decoration: none; }
+.footer__section a:hover { color: var(--color-white); text-decoration: underline; }
+.social-links { display: flex; gap: 1rem; }
+.social-links a { color: var(--color-white); }
+.social-links a:hover { color: var(--color-accent); transform: scale(1.1); }
+.footer__bottom {
+    text-align: center;
+    padding: 1.5rem 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer__logo img { max-width: 150px; filter: brightness(0) invert(1); }

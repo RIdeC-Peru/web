@@ -1,170 +1,80 @@
+/* ==========================================================================
+   1. SISTEMA DE DISEÑO: VARIABLES, RESET Y ESTILOS GLOBALES
+   ========================================================================== */
+
+/*
+  NOTA: La importación de fuentes ya está en el <head> del HTML, que es la práctica
+  recomendada para el rendimiento. Se mantiene aquí por si se usa el CSS de forma aislada.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap');
+
 :root {
-  --primary: #2b82cb;
-  --secondary: #1da7a8;
-  --background: #f9fbfd;
-  --text: #232b33;
-  --card: #fff;
+    /* Paleta de Colores */
+    --color-primary: #0D2C4F;      /* Azul corporativo oscuro */
+    --color-accent: #FF6B6B;        /* Coral vibrante para llamadas a la acción */
+    --color-accent-hover: #E05252;  /* Tono más oscuro para hover */
+    --color-text-primary: #333333;  /* Gris oscuro para legibilidad */
+    --color-text-secondary: #6c757d;/* Gris suave para texto secundario */
+    --color-background: #F7F9FC;    /* Gris muy claro para el fondo */
+    --color-white: #FFFFFF;
+    --color-border: #E0E0E0;
+
+    /* Tipografía */
+    --font-heading: 'Poppins', sans-serif;
+    --font-body: 'Inter', sans-serif;
+
+    /* Otros valores del sistema */
+    --header-height: 4.5rem;
+    --border-radius: 12px;
+    --shadow-soft: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
+    --shadow-medium: 0 8px 15px rgba(0, 0, 0, 0.1);
+    --transition-fast: 0.2s ease-in-out;
+    --transition-smooth: 0.3s ease-in-out;
 }
 
-* { box-sizing: border-box; }
-
-/* Reset básico */
+/* Reset de estilos universal */
 * {
-  margin: 0; padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/* Estilos base para el body */
 body {
-  font-family: 'Inter', Arial, sans-serif;
-  background: #f7f9fa;
+    font-family: var(--font-body);
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+    padding-top: var(--header-height); /* Compensa la altura del header fijo */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
-/* Header */
-.main-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.2rem 2rem;
-  background: #fff;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
-  position: relative;
-  z-index: 10;
-}
+/* Estilos para elementos comunes */
+ul { list-style: none; }
+a { text-decoration: none; color: inherit; }
+img { max-width: 100%; height: auto; display: block; }
+button { font-family: inherit; cursor: pointer; }
 
-.logo {
-  display: flex;
-  align-items: center;
-  height: 48px; /* Ajusta según el alto de tu header */
-}
 
-/* Imagen del logo */
-.logo img {
-  max-height: 100%;    /* La imagen nunca será más alta que el contenedor */
-  max-width: 150px;    /* Ajusta el ancho máximo según tu preferencia */
-  width: auto;
-  height: auto;
-  display: block;
-  object-fit: contain;
-  transition: filter 0.2s;
-}
+/* ==========================================================================
+   2. CLASES DE UTILIDAD (HELPERS)
+   ========================================================================== */
 
-/* Opcional: efecto hover (branding moderno) */
-.logo img:hover, .logo img:focus {
-  filter: brightness(0.92) drop-shadow(0 2px 8px rgba(0,116,217,0.10));
-}
-
-/* Navigation Menu */
-.nav-menu {
-  position: relative;
-}
-.menu-list {
-  display: flex;
-  gap: 2rem;
-  list-style: none;
-  align-items: center;
-  transition: all 0.2s;
-}
-.menu-list li a {
-  text-decoration: none;
-  color: #222;
-  font-size: 1.1rem;
-  font-weight: 500;
-  padding: 0.5rem 1rem;
-  border-radius: 999px;
-  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
-}
-.menu-list li a:hover, .menu-list li a:focus {
-  background: #0074d9;
-  color: #fff;
-  box-shadow: 0 4px 18px rgba(0,116,217,0.1);
-  outline: none;
-}
-
-/* Hamburger (mobile) */
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  cursor: pointer;
-  outline: none;
-}
-.hamburger,
-.hamburger::before,
-.hamburger::after {
-  display: block;
-  background: #222;
-  height: 3px;
-  width: 28px;
-  border-radius: 2px;
-  position: relative;
-  transition: all 0.3s cubic-bezier(.55,.06,.68,.19);
-}
-.hamburger::before,
-.hamburger::after {
-  content: '';
-  position: absolute;
-  left: 0;
-}
-.hamburger::before { top: -8px; }
-.hamburger::after { top: 8px; }
-
-/* Responsive styles */
-@media (max-width: 768px) {
-  .menu-list {
-    flex-direction: column;
-    background: #fff;
+/* Clase para ocultar elementos visualmente pero mantenerlos accesibles para lectores de pantalla */
+.sr-only {
     position: absolute;
-    top: 64px;
-    right: 0;
-    width: 200px;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.12);
-    padding: 1.5rem 0;
-    gap: 1.2rem;
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(-16px);
-    transition: opacity 0.2s, transform 0.2s;
-  }
-  .menu-list.open {
-    opacity: 1;
-    pointer-events: all;
-    transform: translateY(0);
-  }
-  .menu-toggle {
-    display: inline-block;
-  }
+    width: 1px; height: 1px;
+    padding: 0; margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
 }
 
-/* Optional: focus ring for accessibility */
-.menu-list li a:focus-visible {
-  outline: 2px solid #0074d9;
-  outline-offset: 3px;
-}
+/* ________________________________________________________________________________ */
 
 
-body {
-  margin: 0;
-  font-family: 'Segoe UI', Arial, sans-serif;
-  background: var(--background);
-  color: var(--text);
-}
-
-header {
-  text-align: center;
-  padding: 2rem 1rem 1rem 1rem;
-}
-
-header h1 {
-  font-size: 2.6rem;
-  margin-bottom: .5rem;
-  font-weight: 800;
-  color: var(--primary);
-}
-
-header p {
-  font-size: 1.2rem;
-  color: #444;
-  margin: 0;
-}
 
 section {
   max-width: 900px;

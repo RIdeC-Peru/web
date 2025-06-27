@@ -1,0 +1,32 @@
+/* --- Header y Navegación --- */
+.header {
+    width: 100%; position: fixed;
+    top: 0; left: 0;
+    background-color: var(--color-surface);
+    box-shadow: var(--shadow-soft);
+    z-index: 100;
+}
+.navbar {
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo img { height: 45px; }
+.nav-toggle { display: none; } /* Oculto en desktop por defecto */
+
+.nav-menu.is-active { right: 0; }
+.nav-list { list-style: none; display: flex; align-items: center; gap: 2.5rem; }
+.nav-link {
+    font-family: var(--font-heading);
+    font-weight: 600; text-decoration: none;
+    padding: 0.5rem 0; position: relative;
+}
+.nav-link::after {
+    content: ''; position: absolute;
+    bottom: -5px; left: 0; width: 0; height: 3px;
+    background-color: var(--color-accent);
+    transition: width var(--transition-smooth);
+}
+.nav-link:hover, .nav-link[aria-current="page"] { color: var(--color-primary); }
+.nav-link:hover::after, .nav-link[aria-current="page"]::after { width: 100%; }

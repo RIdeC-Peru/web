@@ -1,18 +1,28 @@
-<!-- /components/header.html -->
-<header class="main-header">
-  <div class="logo">
-      <img src="/assets/images/logo.png" alt="Logo">
-  </div>
-  <nav class="nav-menu" aria-label="Menú principal">
-      <button class="menu-toggle" aria-label="Abrir menú">
-          <span class="hamburger"></span>
-      </button>
-      <ul class="menu-list">
-          <li><a href="/index.html">Inicio</a></li>
-          <li><a href="/pages/nosotros.html">Nosotros</a></li>
-          <li><a href="/pages/eventos.html">Eventos</a></li>
-          <li><a href="/pages/oportunidades.html">Oportunidades</a></li>
-          <li><a href="/pages/generando_lazos.html">Generando Lazos</a></li>
-      </ul>
-  </nav>
-</header>
+<nav class="navbar container">
+    <a href="index.html" class="nav-logo">
+        <img src="/assets/images/logo.png" alt="Logo del portal de Divulgación Científica">
+    </a>
+
+    <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="/index.html" class="nav-link">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a href="/pages/nosotros.html" class="nav-link">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a href="/pages/eventos.html" class="nav-link">Eventos</a>
+            </li>
+            <li class="nav-item">
+                <a href="/pages/oportunidades.html" class="nav-link">Oportunidades</a>
+            </li>
+        </ul>
+    </div>
+
+    <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+</nav>
