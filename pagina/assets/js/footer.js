@@ -1,18 +1,23 @@
+// ====================================================================
+// FOOTER.JS v1.0 – Inserción modular del footer
+// ====================================================================
 
-document.addEventListener('DOMContentLoaded', () => {
+export async function loadFooter(
+  selector = 'footer',
+  url = '/components/footer.html'
+) {
+  try {
+    const res = await fetch(url, { cache: 'no-cache' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
-    /* ==========================================================================
-       LÓGICA DEL FOOTER
-       Funcionalidad para el pie de página.
-       ========================================================================== */
+    const html = await res.text();
+    const footerEl = document.querySelector(selector);
 
-    // MÓDULO: Actualización dinámica del año del copyright
-    (() => {
-        const yearSpan = document.getElementById('current-year');
-        if (!yearSpan) return;
+    if (!footerEl) throw new Error(`No se encontró el selector ${selector}`);
+    footerEl.innerHTML = html;
+  } catch (err) {
+    console.error('No se pudo cargar el footer:', err);
+  }
+}
 
-        // Establece el año actual para que el copyright no quede desactualizado.
-        yearSpan.textContent = new Date().getFullYear();
-    })();
-
-});
+document.addEventListener('DOMContentLoaded', () => loadFooter());
