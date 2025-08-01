@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://ridecperu.org/"
+baseURL = "https://ridecperu.pe/"
 title = "RIdeC-Perú"
 # post pagination
 paginate = "6"
